@@ -6,7 +6,7 @@ public class Class1
 
     public Class1()
     {
-        _items = new List<string>();
+        _items = [];
     }
 
     public void AddItem(string item)
@@ -21,6 +21,6 @@ public class Class1
 
     public List<string> GetItems()
     {
-        return new List<string>(_items);
+        return [.. _items];
     }
 }
